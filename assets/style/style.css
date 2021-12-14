@@ -1,1 +1,10 @@
 /* BASIC STYLES HERE */
+
+.vendImg {
+  height: 300px;
+  width: 300px;
+}
+
+.vendImg:active {
+  transform: scale(0.9);
+}
