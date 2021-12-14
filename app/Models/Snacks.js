@@ -1,3 +1,5 @@
 export class Snacks {
-    console.log('Snacks loaded.');
+  constructor() {
+    console.log("Snacks Loaded.");
+  }
 }
