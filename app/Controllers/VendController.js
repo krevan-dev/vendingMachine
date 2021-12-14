@@ -3,8 +3,8 @@ import { vendService } from "../Services/VendService.js";
 
 function drawSnacks() {
   let template = "";
-  let snacks = ProxyState.Snacks;
-  console.log(ProxyState.Snacks);
+  let snacks = ProxyState.Snack;
+  console.log(ProxyState.Snack);
 }
 
 export class VendController {

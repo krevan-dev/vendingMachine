@@ -7,7 +7,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = [];
 
-  Snacks = [
+  Snack = [
     new Snack(
       "Mountain Dew",
       2.5,
