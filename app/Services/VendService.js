@@ -8,8 +8,7 @@ class VendService {
 
   addCredits() {
     let credits = ProxyState.credits;
-    ProxyState.credits += (0.25).toFixed(2);
-    console.log(ProxyState.credits);
+    ProxyState.credits += 0.25;
   }
 }
 

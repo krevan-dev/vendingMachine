@@ -1,3 +1,4 @@
+import { ProxyState } from "../AppState.js";
 import { vendService } from "../Services/VendService.js";
 
 export class VendController {
@@ -7,5 +8,7 @@ export class VendController {
 
   addCredits() {
     vendService.addCredits();
+    document.getElementById("cashMoney").innerText =
+      ProxyState.credits.toFixed(2);
   }
 }

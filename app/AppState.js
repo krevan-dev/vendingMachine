@@ -9,7 +9,7 @@ class AppState extends EventEmitter {
 
   snacks = [];
 
-  credits = [];
+  credits = 0;
 }
 
 export const ProxyState = new Proxy(new AppState(), {
